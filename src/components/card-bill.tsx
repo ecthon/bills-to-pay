@@ -24,10 +24,6 @@ export function CardBill() {
                     <DialogContent>
                         <DialogHeader>
                             <DialogTitle className='flex my-2'>Anexar comprovante</DialogTitle>
-                            {/* <DialogDescription>
-                                This action cannot be undone. This will permanently delete your account
-                                and remove your data from our servers.
-                            </DialogDescription> */}
                             <Label htmlFor="file" className="flex flex-col items-center justify-center p-12 cursor-pointer border-2 border-dashed rounded-md text-center hover:bg-zinc-100 transition-colors">
                                 <HugeiconsIcon icon={CloudUploadIcon} size={40} strokeWidth={1.5} className='text-zinc-500' />
                                 <div className='flex flex-col w-full items-center justify-center'>
