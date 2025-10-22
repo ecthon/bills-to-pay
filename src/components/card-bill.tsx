@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog';
 import { Input } from './ui/input';
 import { Label } from './ui/label';
+import Link from 'next/link';
 
 export function CardBill() {
     return (
@@ -36,9 +37,9 @@ export function CardBill() {
                         </DialogHeader>
                     </DialogContent>
                 </Dialog>
-                <Button variant="ghost" size="icon-sm" aria-label="Anexar comprovante" className='max-sm:text-[12px] bg-zinc-50'>
+                <Link href={`http://192.168.1.2:3000/bill-details/1`} className=' text-zinc-950max-sm:text-[12px] bg-zinc-50'>
                     <HugeiconsIcon icon={ArrowRight01Icon} size={16} color="currentColor" strokeWidth={1.5} />
-                </Button>
+                </Link>
             </div>
         </div>
     )
